@@ -5,10 +5,6 @@ import { motion, AnimatePresence } from 'framer-motion'
 import { Mic, MicOff, Upload, Play, Pause, RefreshCw, CheckCircle, AlertTriangle, TrendingUp, ChevronRight } from 'lucide-react'
 import Link from 'next/link'
 
-export const metadata = {
-  title: 'Live Demo — VoiceMotion AI',
-  description: 'Try VoiceMotion AI live. Upload a conversation or use our sample to see real-time transcription, sentiment analysis, and AI insights in action.',
-}
 
 const SAMPLE_TRANSCRIPT = [
   { speaker: 'salesperson', time: '0:00', lang: 'Hindi', text: 'Namaste sir, aaj aap Fortuner dekhna chahte hain na? Bahut achha choice hai.' },

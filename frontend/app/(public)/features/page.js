@@ -9,10 +9,6 @@ import {
   Clock, Award, ChevronRight, Layers, Database, Bell
 } from 'lucide-react'
 
-export const metadata = {
-  title: 'Features — Voice Intelligence Platform',
-  description: 'Explore VoiceMotion AI features: Scribe conversation intelligence, AI voice agents, and real-time analytics — built for Indian car dealerships.',
-}
 
 const fadeUp = {
   hidden: { opacity: 0, y: 30 },
